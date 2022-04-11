@@ -16,3 +16,7 @@
   --planos-cartao-ultra: #B04CD9;
   --planos-cartao-mega: #E33B3B;
 }
+
+html {
+  font-size: 62.5%;
+}
