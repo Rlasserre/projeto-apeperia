@@ -1,1 +1,5 @@
-.spotlights {}
+.spotlights {
+    background-color: var(--azul-claro);
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+}

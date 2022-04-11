@@ -1,1 +1,6 @@
-.spotlights__title {}
+.spotlights__title {
+    color: var(--cinza-escuro);
+    font-family: var(--monteserrat);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
