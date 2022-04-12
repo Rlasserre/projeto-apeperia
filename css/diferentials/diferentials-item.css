@@ -1,7 +1,25 @@
 .diferentials__item {
+    background-repeat: no-repeat;
+    background-position: top 1.25rem left 2.5rem;
     box-sizing: border-box;
     max-width: 350px;
     padding: 2rem 0 2rem 5rem;
+}
+
+.diferentials__item-text {
+    line-height: normal;
+}
+
+.diferentials__item--time {
+    background-image: url(../../img/icone-relogio.png);
+}
+
+.diferentials__item--focus {
+    background-image: url(../../img/icone-dinheiro.png);
+}
+
+.diferentials__item--experts {
+    background-image: url(../../img/icone-quimica.png);
 }
 
 .diferentials__item-title {
@@ -10,8 +28,4 @@
     font-weight: 700;
     margin-bottom: 1.5rem;
     text-transform: uppercase;
-}
-
-.diferentials__item-text {
-    line-height: normal;
 }
