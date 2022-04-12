@@ -1,0 +1,17 @@
+.diferentials__item {
+    box-sizing: border-box;
+    max-width: 350px;
+    padding: 2rem 0 2rem 5rem;
+}
+
+.diferentials__item-title {
+    color: var(--cinza-escuro);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.diferentials__item-text {
+    line-height: normal;
+}
