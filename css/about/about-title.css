@@ -1,0 +1,9 @@
+.about__title {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: var(--montserrat);
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+    text-align: center;
+}
