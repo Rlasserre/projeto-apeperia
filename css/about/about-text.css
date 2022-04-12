@@ -1,0 +1,12 @@
+.about__text {
+    line-height: normal;
+
+    margin-bottom: 1rem;
+}
+
+.about__text--contrast {
+    color: var(--cinza-escuro);
+    font-weight: 700;
+}
+
+.about__text--division {}
