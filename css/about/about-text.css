@@ -1,6 +1,5 @@
 .about__text {
     line-height: normal;
-
     margin-bottom: 1rem;
 }
 
@@ -9,4 +8,6 @@
     font-weight: 700;
 }
 
-.about__text--division {}
+.about__text--division {
+    margin-bottom: 1.2rem;
+}
