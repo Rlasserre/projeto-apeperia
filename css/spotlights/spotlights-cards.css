@@ -1,0 +1,21 @@
+.spotlights__cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.soptlights__cards-image {
+    box-shadow: 0 2px 10px 5px #00000020;
+    margin-bottom: 0.5rem;
+    max-width: 600px;
+    width: 100vw;
+
+
+}
+
+.spotlights__cards-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
