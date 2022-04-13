@@ -1,1 +1,15 @@
-.institutional__contact {}
+.institutional__contact {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 2rem;
+}
+
+.institutional__contact-telephone {
+    line-height: normal;
+}
+
+.institutional__contact--email {
+    color: var(--fonte-link);
+    text-decoration: underline;
+    display: block;
+}
