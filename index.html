@@ -13,14 +13,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
-  <link rel="stylesheet" href="./css/header/header.css">
-  <link rel="stylesheet" href="./css/header/header-logo.css">
-  <link rel="stylesheet" href="./css/header/header-nav.css">
-  <link rel="stylesheet" href="./css/header/header-link.css">
-  <link rel="stylesheet" href="./css/call/call.css">
-  <link rel="stylesheet" href="./css/call/call-title.css">
-  <link rel="stylesheet" href="./css/call/call-text.css">
-  <link rel="stylesheet" href="./css/call/call-button.css">
+  <link rel="stylesheet" href="./css/cabecalho.css">
+  <link rel="stylesheet" href="./css/chamada.css">
   <link rel="stylesheet" href="./css/spotlights/spotligths.css">
   <link rel="stylesheet" href="./css/spotlights/spotlights-title.css">
   <link rel="stylesheet" href="./css/spotlights/spotlights-cards.css">
@@ -37,28 +31,28 @@
 </head>
 
 <body>
-  <header class="header container">
-    <img src="img/logo-apeperia.svg" alt="logo da apeperia" class="header__logo">
-    <nav class="header__nav">
+  <header class="cabecalho container">
+    <img src="img/logo-apeperia.svg" alt="logo da apeperia" class="cabecalho__logo">
+    <nav class="cabecalho__navegacao">
       <ul>
-        <li class="header__link"><a href="#">Sobre</a></li>
-        <li class="header__link"><a href="#">Planos</a></li>
-        <li class="header__link"><a href="#">Blog</a></li>
-        <li class="header__link"><a href="#">Destaques</a></li>
-        <li class="header__link"><a href="#">Institucional</a></li>
-        <li class="header__link"><a href="#">Contato</a></li>
+        <li class="cabecalho__link"><a href="#">Sobre</a></li>
+        <li class="cabecalho__link"><a href="#">Planos</a></li>
+        <li class="cabecalho__link"><a href="#">Blog</a></li>
+        <li class="cabecalho__link"><a href="#">Destaques</a></li>
+        <li class="cabecalho__link"><a href="#">Institucional</a></li>
+        <li class="cabecalho__link"><a href="#">Contato</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section class="call container">
-      <h1 class="call__title">Aplicativos Na Medida</h1>
-      <p class="call__text">
+    <section class="chamada container">
+      <h1 class="chamada__titulo">Aplicativos Na Medida</h1>
+      <p class="chamada__texto">
         Apeperia tem um jeito inovador de comparar
         e montar aplicativos para pequenas e médias
         empresas.
       </p>
-      <a href="#" class="call__button button">Conheça os planos</a>
+      <a href="#" class="chamada__botao button">Conheça os planos</a>
     </section>
     <section class="spotlights container">
       <h2 class="spotlights__title">Destaques</h2>
@@ -130,6 +124,42 @@
         <p class="about__text">Desenvolvemos aplicativos para todas as plataformas</p>
       </div>
       <img src="img/sobre-apeperia.png" alt="Sobre a Apeperia" class="about__image">
+    </section>
+    <section class="plans container">
+      <h2 class="plans__title">Planos</h2>
+      <ul class="plans__cards">
+        <li class="card card--start">
+          <h3 class="card__title">Start</h3>
+          <article class="card__content">
+            <p class="card__price"><em>R$ 500</em></p>
+            <p class="card__text">5 manutenções mensais</p>
+            <p class="card__text">App SEO</p>
+            <p class="card__text">1 sistema operacional</p>
+            <a href="plano.html" class="card__butoon card__button--start button">Assinar plano</a>
+          </article>
+        </li>
+        <li class="card card--ultra">
+          <h3 class="card__title">Ultra</h3>
+          <article class="card__content">
+            <p class="card__price"><em>R$ 1500</em></p>
+            <p class="card__text">20 manutenções mensais</p>
+            <p class="card__text">App SEO</p>
+            <p class="card__text">4 sistemas operacionais</p>
+            <p class="card__text">24h de atendimento</p>
+            <a href="#" class="card__button card__button--ultra button">Assinar plano</a>
+          </article>
+        </li>
+        <li class="card card--mega">
+          <h3 class="card__title">Mega</h3>
+          <p class="card__price"><em>R$ 1000</em></p>
+          <article class="card__content">
+            <p class="card__text">10 manutenções mensais</p>
+            <p class="card__text">App SEO</p>
+            <p class="card__text">2 sistemas operacionais</p>
+            <a href="#" class="card__button card__button--mega button">Assinar plano</a>
+          </article>
+        </li>
+      </ul>
     </section>
 
   </main>
