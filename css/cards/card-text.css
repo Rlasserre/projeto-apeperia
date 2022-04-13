@@ -1,0 +1,4 @@
+.card__text {
+    color: var(--fonte-cinza);
+    line-height: 28px;
+}

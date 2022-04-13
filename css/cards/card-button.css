@@ -1,0 +1,22 @@
+.card__button {
+    align-self: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: .75rem 2rem;
+    width: 100%;
+}
+
+
+.card__button--start {
+    border-color: var(--planos-cartao-start);
+}
+
+.card__button--ultra {
+    border-color: var(--planos-cartao-ultra);
+}
+
+.card__button--mega {
+    border-color: var(--planos-cartao-mega);
+}
