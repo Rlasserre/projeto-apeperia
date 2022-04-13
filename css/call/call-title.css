@@ -5,3 +5,10 @@
     margin-bottom: 1.5rem;
     text-transform: uppercase;
 }
+
+@media screen and (min-width: 1024px) {
+    .call__title {
+        font-size: 3.25rem;
+        margin-bottom: 2rem;
+    }
+}
