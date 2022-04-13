@@ -1,0 +1,8 @@
+.card__title {
+    border-bottom: 1px solid var(--azul-claro);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    padding: .75rem 0;
+    text-align: center;
+}
