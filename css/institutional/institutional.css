@@ -1,0 +1,9 @@
+.intitutional {
+    align-items: center;
+    color: var(--fonte-cinza);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-align: center;
+}
