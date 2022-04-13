@@ -8,8 +8,15 @@
     line-height: normal;
 }
 
-.institutional__contact--email {
+.institutional__contact-email {
     color: var(--fonte-link);
     text-decoration: underline;
     display: block;
+}
+
+@media screen and (min-width: 768px) {
+
+    .institutional__contact-email {
+        display: inline-block;
+    }
 }
