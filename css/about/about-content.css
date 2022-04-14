@@ -1,1 +1,5 @@
-.about__content {}
+@media screen and (min-width: 1024px) {
+    .about__content {
+        margin-right: 3rem;
+    }
+}

@@ -1,3 +1,10 @@
 .institutional__video {
     width: 100vw;
 }
+
+@media screen and (min-width: 1024px) {
+    .institutional__video {
+        align-self: flex-end;
+        width: 375px;
+    }
+}
