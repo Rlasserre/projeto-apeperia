@@ -3,3 +3,8 @@
     line-height: 3;
     text-align: center;
 }
+
+.footer__nav {
+    min-width: 600px;
+    text-align: left;
+}

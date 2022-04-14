@@ -20,3 +20,10 @@
         display: inline-block;
     }
 }
+
+@media screen and (min-width: 1024px) {
+
+    .institutional__contact-email {
+        display: inline-block;
+    }
+}

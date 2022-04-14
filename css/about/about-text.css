@@ -11,3 +11,11 @@
 .about__text--division {
     margin-bottom: 1.2rem;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .about__text--division {
+        border-bottom: 1px solid var(--cinza-medio);
+        padding-bottom: 1.5rem;
+    }
+}
